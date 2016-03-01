@@ -4,7 +4,7 @@ int main(void);
 {
 int a;
 printf("enter the value");
-scanf("%d",a);//address operator
+scanf("%d",&a);
 printf("result is %d",a);
 return 0;
 }
